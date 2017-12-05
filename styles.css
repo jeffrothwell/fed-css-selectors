@@ -48,3 +48,15 @@ header {
 #advanced-selectors ol > li:nth-child(odd) {
   background-color: green;
 }
+
+a[title]:hover {
+  text-decoration: none;
+}
+
+#advanced-selectors ol > li > ul a:hover {
+  background-color: yellow;
+}
+
+#advanced-selectors ol > li > ul a:active {
+  background-color: red;
+}
